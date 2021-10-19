@@ -1,5 +1,12 @@
 #include "stats.h"
 
+struct
+{
+  float average;
+  float min;
+  float max;
+}Stats;
+
 struct Stats compute_statistics(const float* numberset, int setlength) {
     float sum, maximum, minimum;
     int i;//control variable for for-loop
