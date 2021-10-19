@@ -8,7 +8,7 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
     s.min = 0;
     s.max = 0;
     
-    for(i=0;i<=setlength;i++)
+    for(i=0;i<setlength;i++)
     {
         sum += numberset[i];
         maximum = MAX(maximum,numberset[i]);
