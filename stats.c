@@ -2,6 +2,7 @@
 
 struct Stats compute_statistics(const float* numberset, int setlength) {
     float sum, maximum, minimum;
+    int i;//control variable for for-loop
     struct Stats s;
     s.average = 0;
     s.min = 0;
