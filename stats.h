@@ -1,4 +1,7 @@
 
+#define MAX(a, b)  ( ((a) > (b)) ? (a) : (b) )
+#define MIN(a, b)  ( ((a) < (b)) ? (a) : (b) )
+
 struct Stats compute_statistics(const float* numberset, int setlength);
 
 typedef void (*alerter_funcptr)();
